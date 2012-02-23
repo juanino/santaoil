@@ -4,7 +4,7 @@ See: http://www.santafuel.com/residential
 This tool requires a username and password which assumes an active account with the company
 usually for autodelivery.
 
-You must edit sseoilwatch.pl and 
+You must edit seoilwatch.pl and 
 replace the values of $login and $password
 
 Example
