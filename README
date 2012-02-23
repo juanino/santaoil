@@ -1,2 +1,17 @@
 An oil price parser for Santa Energy in Bridgeport, CT
 See: http://www.santafuel.com/residential
+
+This tool requires a username and password which assumes an active account with the company
+usually for autodelivery.
+
+Sample Output
+-------------
+Sat Jan 21 11:33:53 EST 2012,Daily price -> $4.09 pre-buy price -> Fixed at $4.05
+Fri Jan 27 19:38:02 EST 2012,Daily price -> $4.09 pre-buy price -> Fixed at $4.05
+Sat Feb 18 19:40:49 EST 2012,Daily price -> $4.19 pre-buy price -> Fixed at $4.14
+Sat Feb 18 19:47:02 EST 2012,Daily price -> $4.19 pre-buy price -> Fixed at $4.14
+Sun Feb 19 06:25:12 EST 2012,Daily price -> $4.19 pre-buy price -> Fixed at $4.14
+Mon Feb 20 06:25:13 EST 2012,Daily price -> $4.19 pre-buy price -> Fixed at $4.14
+Tue Feb 21 06:25:09 EST 2012,Daily price -> $4.19 pre-buy price -> Fixed at $4.14
+Wed Feb 22 06:25:06 EST 2012,Daily price -> $4.24 pre-buy price -> Fixed at $4.19
+
