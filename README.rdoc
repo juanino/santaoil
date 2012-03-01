@@ -1,19 +1,18 @@
-== santaoil price parser
+== Santa Enegery oil price monitor
 
 An oil price parser for Santa Energy in Bridgeport, CT
 See: http://www.santafuel.com/residential
 
-This tool requires a username and password which assumes an active account with the company
+This tool requires a username and password
+ which assumes an active account with the company,
 usually for autodelivery.
 
-You must edit seoilwatch.yml and 
-replace the values of login and password
+== Config
+ seoilwatch.yml
+Replace the values of login and password
 then copy into /etc/seoilwatch.yml
 
 == Example
 
   $ ./seoilwatch.pl
   Wed Feb 22 21:32:15 EST 2012,Daily price -> $4.24 pre-buy price -> Fixed at $4.19
-
-== Config
-  see seoilwatch.yml
