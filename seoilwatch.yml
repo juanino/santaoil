@@ -1,0 +1,17 @@
+# sample config file
+# copy file into /etc/seoilwatch.yml
+
+# login info
+
+login: ######
+password: XXXXXX
+
+# Price alerts
+# daily price alerts
+
+highmark: 4.24
+lowmark: 3.90
+
+# requires working unix mailer
+
+alertemail: user@host.com
