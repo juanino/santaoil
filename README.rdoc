@@ -4,7 +4,7 @@ An oil price parser for Santa Energy in Bridgeport, CT
 See: http://www.santafuel.com/residential
 
 This tool requires a username and password
- which assumes an active account with the company,
+which assumes an active account with the company,
 usually for autodelivery.
 
 == Debian packages
