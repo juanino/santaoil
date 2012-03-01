@@ -7,6 +7,10 @@ This tool requires a username and password
  which assumes an active account with the company,
 usually for autodelivery.
 
+== Debian packages
+ libyaml-tiny-perl
+ libwww-mechanize-perl
+
 == Config
  seoilwatch.yml
 Replace the values of login and password
