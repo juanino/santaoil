@@ -9,8 +9,8 @@ password: XXXXXX
 # Price alerts
 # daily price alerts
 
-highmark: 4.24
-lowmark: 3.90
+highmark: 3.13
+lowmark: 3.10
 
 # requires working unix mailer
 
