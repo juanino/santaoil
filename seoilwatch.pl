@@ -34,10 +34,11 @@ $mech->click('cmdLogin');
 die unless ($mech->success);
 my $output = $mech->content;
 my @lines = split('\n',$output);
+#print @lines;
 
 my $near=0;
 foreach my $line (@lines) {
-    if ($near) {
+    if ($near==2) {
        print "Daily price -> " .  &format($line);
        my $dailyprice = &format($line);
        $dailyprice =~ s/\$//g;
@@ -53,7 +54,7 @@ foreach my $line (@lines) {
        }
        $near=0;
     }
-    if ($line =~ /Santa Daily Price/) {
+    if ($line =~ /Your Price If Delivered Today/) {
           $near++;
     };
 }; # end each line
